@@ -1,7 +1,9 @@
 # Wallpaper from code / text
 
-Small project, to automatically generate a wall from code (or any minified text).
-Text color changes depending on the loaded logo.
+### Build a printable source code poster with your code / text and your logo.
+( Interface is a work-in-progress, but you can already build your poster )
 
 Ex:
-![alt text](https://raw.githubusercontent.com/shadowRR/wallpaper-with-code/master/img/tux_logo_code_wallpaper.png "Code Wallpaper with Tux Logo")
+![alt text](https://raw.githubusercontent.com/shadowRR/Logowall/master/img/examples/tux_logo_code_wallpaper_small.png "Code Wallpaper with Tux Logo")
+![alt text](https://raw.githubusercontent.com/shadowRR/Logowall/master/img/examples/ubuntu_code_wallpaper_small.png "Code Wallpaper with Ubuntu Logo")
+![alt text](https://raw.githubusercontent.com/shadowRR/Logowall/master/img/examples/gimp_code_wallpaper_small.png "Code Wallpaper with Gimp Logo")
