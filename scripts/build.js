@@ -30,6 +30,7 @@ $( document ).ready( () => {
 		ctxImg.drawImage( image,
         	canvas.width / 2 - image.width / 2,
         	canvas.height / 2 - image.height / 2 );
+		// ctxImg.contrast = 50;
 
 		let x = 6;
 		let y = 8;

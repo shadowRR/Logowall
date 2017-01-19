@@ -1,0 +1,37 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+    overflow: hidden;
+	margin: 0;
+}
+
+section {
+	border: 1em solid white;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.back {
+	position: fixed;
+	top: 2em;
+	right: 2em;
+	text-align: right;
+	width: 150px;
+}
+
+.controls {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	width: 150px;
+	text-align: right;
+}
+
+.controls .pure-button {
+	margin-bottom: 1em;
+}
