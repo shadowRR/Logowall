@@ -15,11 +15,11 @@
 	<body>
 
 		<div style="display:none;">
-			<img id="img" class="img bg" src="./img/gimp_logo.png">
+			<img id="img" class="img bg">
 		</div>
 
 		<section>
-			<canvas id="canvas" width="screen.width" height="screen.height"></canvas>
+			<canvas id="canvas"></canvas>
 			<canvas id="canvas-img"></canvas>
 		</section>
 
@@ -40,11 +40,13 @@
 			<div class="pure-g">
 				<div class="pure-u-1">
 
-					<button class="pure-button" type="button">Get my text file</button>
+					<label for="text_url">Text/ Source Code URL File</label>
+					<input id="text_url" type="text" placeholder="Text file URL">
+					<br>
+					<label for="logo">Load Your Logo</label>
+					<input id="logo" type="file">
 
-					<button class="pure-button" type="button">Get my image</button>
-
-					<button class="pure-button pure-button-disabled" type="button">Generate</button>
+					<button id="generate" class="pure-button" type="button">Generate</button>
 
 				</div>
 			</div>

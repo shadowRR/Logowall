@@ -28,10 +28,7 @@ section {
 	position: fixed;
 	bottom: 2em;
 	right: 2em;
-	width: 150px;
-	text-align: right;
-}
-
-.controls .pure-button {
-	margin-bottom: 1em;
+	width: 250px;
+	background: #fafafa;
+	padding: 1em;
 }

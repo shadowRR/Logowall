@@ -14,9 +14,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 input {
-	border: none !important;
-	border-bottom: 1px solid #eee !important;
+	/*border: none !important;*/
+	/*border-bottom: 1px solid #eee !important;*/
 	box-shadow: none !important;
+	margin-bottom: .5em;
 }
 
 .container {
